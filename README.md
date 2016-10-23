@@ -12,7 +12,7 @@ python3 extract_bad_practices.py
 
 Outputs are writen in *outputs.json*
 
-Please look at config.py for customization ()
+Please look at config.py for customization 
 
 ## Add a plugin
 
