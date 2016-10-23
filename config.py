@@ -19,4 +19,4 @@ languages = {
 OUTPUTS = 'outputs.json'
 REPO_BASE = "git-repositories"
 EXCLUDE = ['.git']
-NB_JOURS_BEFORE_DELETING_REPO = 7
+NB_JOURS_BEFORE_DELETING_REPO = 1
