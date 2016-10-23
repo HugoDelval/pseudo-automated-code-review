@@ -6,7 +6,7 @@ This repo is a usefull helper to do a security code review on a big project.
 
 ```bash
 git clone https://github.com/HugoDelval/pseudo-automated-code-review && cd pseudo-automated-code-review 
-vim projects # 1 git project/line : [name][space][url]\n
+vim projects # 1 git project/line : [name of your project][space][git url of your project]\n
 python3 extract_bad_practices.py
 ```
 
