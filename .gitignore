@@ -1,0 +1,4 @@
+__pycache__/
+git-repositories/
+code_review_plugins/__pycache__/
+outputs.json
