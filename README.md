@@ -10,9 +10,9 @@ vim projects # 1 git project/line : [name of your project][space][git url of you
 python3 extract_bad_practices.py
 ```
 
-Outputs are writen in *outputs.json*
+Outputs are writen in *outputs.json*.
 
-Please look at config.py for customization 
+Please look at config.py for customization. 
 
 ## Add a plugin
 
@@ -42,13 +42,13 @@ Add a constant on top of the file (ex: *PHP = 8*). And add it to the dict **lang
 vim extract_bad_practices.py
 ```
 
-You can update the method **detect_language** by adding your custom language detection, based on the parameter **custom_repo_path**. I based my detection on the Unix utility **find**
+You can update the method **detect_language** by adding your custom language detection, based on the parameter **custom_repo_path**. I based my detection on the Unix utility **find**.
 
-Just write a line before the maximum_score calculus :
+Just write a line before the maximum_score calculus:
 
 ```python3
 scores['php'] = ( NUMBER_OF_PHP_FILES , config.PHP)
 maximum_score = ...
 ```
 
-And you are good to go ! :)
+And you are good to go! :)
